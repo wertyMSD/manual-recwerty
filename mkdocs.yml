@@ -9,6 +9,9 @@ exclude_docs: |
   **/indice_*.md
   es/capturas-checklist.md
 
+hooks:
+  - hooks/manifest_mirror.py
+
 copyright: Copyright &copy; 2026 Alfonso Martinez - RecWERTY
 
 theme:
