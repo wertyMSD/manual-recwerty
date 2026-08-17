@@ -82,5 +82,5 @@ Version numbering normalization across the whole application.
 - **Unified version**: the application, the installer, and the updater now report the same version.
 - Baseline of RecWERTY's public numbering (3.2.x series).
 
-[GitHub Releases]: https://github.com/wertyMSD/manual-recwerty/releases
+[GitHub Releases]: https://github.com/alfonsoautomatiza/recwerty/releases
 [Microsoft Store]: https://apps.microsoft.com/detail/9NLD6GX4L1R1

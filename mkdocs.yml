@@ -317,8 +317,8 @@ nav:
   # Spanish (default)
   - Inicio:
     - index.md
-    - Manual publicado: https://wertymsd.github.io/manual-recwerty
+    - Novedades: novedades.md
     - Microsoft Store: es/store.md
     - Política de privacidad: es/privacidad.md
   - Sobre Nosotros: 'https://www.linkedin.com/in/%E2%98%85alfonso-martinez-gonzalez%E2%98%85-19236218/'
-  - Repositorio: https://github.com/wertyMSD/manual-recwerty
+  - Repositorio: https://github.com/alfonsoautomatiza/recwerty
