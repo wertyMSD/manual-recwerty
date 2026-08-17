@@ -163,6 +163,19 @@ pre {
   height: 1rem;
   fill: currentColor;
 }
+
+/* Dark mode: high-contrast FAB with brighter background */
+[data-md-color-scheme="slate"] .md-issues-fab {
+  background: #4a9eff;
+  color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+[data-md-color-scheme="slate"] .md-issues-fab:hover {
+  background: #6bb3ff;
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.6);
+}
+
 @media screen and (max-width: 44.9844em) {
   .md-issues-fab {
     bottom: 1rem;
