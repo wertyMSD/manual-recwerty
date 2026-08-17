@@ -93,7 +93,7 @@ Les mises à jour sont distribuées via Microsoft Store. L’application n’uti
 
 Full documentation / Documentación completa / Documentation complète:
 
-[https://wertymsd.github.io/manual-recwerty](https://wertymsd.github.io/manual-recwerty)
+[https://alfonsoautomatiza.github.io/recwerty](https://alfonsoautomatiza.github.io/recwerty)
 
 ## Repository branches
 
@@ -145,4 +145,4 @@ See [License & versions](docs/es/licencia.md) for activation and published-versi
 
 ---
 
-Created by [Alfonso Martinez](https://github.com/wertyMSD)
+Created by [Alfonso Martinez](https://github.com/alfonsoautomatiza)

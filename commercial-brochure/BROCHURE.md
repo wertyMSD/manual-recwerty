@@ -89,4 +89,4 @@ Elegís qué mostrar, configurás audio y presentación, grabás y exportás el 
 
 ## Próximo paso
 
-Consultá el manual público de RecWERTY para revisar requisitos, instalación y el flujo de la primera grabación: **https://wertymsd.github.io/manual-recwerty/** <!-- CLAIM-007: verified -->
+Consultá el manual público de RecWERTY para revisar requisitos, instalación y el flujo de la primera grabación: **https://alfonsoautomatiza.github.io/recwerty/** <!-- CLAIM-007: verified -->

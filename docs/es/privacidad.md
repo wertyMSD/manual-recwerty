@@ -46,7 +46,7 @@ RecWERTY se distribuye únicamente a través de Microsoft Store (o el instalador
 
 ## Datos que recopila este sitio (manual de usuario)
 
-Este manual, publicado en `wertymsd.github.io/manual-recwerty`, utiliza Google Analytics para medir visitas y mejorar la documentación. Se muestra un aviso de cookies al entrar, y las cookies de analítica solo se activan si das tu consentimiento.
+Este manual, publicado en `alfonsoautomatiza.github.io/recwerty`, utiliza Google Analytics para medir visitas y mejorar la documentación. Se muestra un aviso de cookies al entrar, y las cookies de analítica solo se activan si das tu consentimiento.
 
 ## Tus derechos
 
