@@ -3,9 +3,9 @@ created: 2026-08-13
 tags:
   - contexto/proyecto/manual
 ---
-# RecWERTY v3.2.3
+# RecWERTY v3.2.4
 
-![Version](https://img.shields.io/badge/version-3.2.3-blue)
+![Version](https://img.shields.io/badge/version-3.2.4-blue)
 ![Platform](https://img.shields.io/badge/platform-Windows-blue)
 ![Microsoft Store](https://img.shields.io/badge/Microsoft%20Store-9NLD6GX4L1R1-blue)
 
@@ -88,6 +88,14 @@ RecWERTY est distribué aux utilisateurs finaux via **Microsoft Store**.
 | Exécutable | Distribué via Microsoft Store / Partner Center |
 
 Les mises à jour sont distribuées via Microsoft Store. L’application n’utilise pas de système de mise à jour interne.
+
+## Novedades — 3.2.4
+
+**Español**: interfaz multilingüe (8 idiomas), licencia v2 con cuota mensual, nueva paleta visual, captura cruda con fallback de códec, cola rápida de renderizado e importación de video renovada. [Ver historial completo](https://alfonsoautomatiza.github.io/recwerty/novedades/)
+
+**English**: multilingual UI (8 languages), v2 license with monthly quota, refreshed color palette, raw capture with codec fallback, fast render queue and revamped video import. [Full changelog](https://alfonsoautomatiza.github.io/recwerty/novedades/)
+
+**Français** : interface multilingue (8 langues), licence v2 avec quota mensuel, nouvelle palette de couleurs, capture brute avec repli de codec, file de rendu rapide et import vidéo repensé. [Journal complet](https://alfonsoautomatiza.github.io/recwerty/novedades/)
 
 ## Documentation
 
