@@ -1,9 +1,9 @@
 site_name: Manual de usuario de RecWERTY
-site_url: https://wertymsd.github.io/manual-recwerty/
-site_description: Manual de RecWERTY 3.2.3 para grabar la pantalla en Windows, configurar audio y efectos, y exportar videos.
+site_url: https://alfonsoautomatiza.github.io/recwerty/
+site_description: Manual de RecWERTY 3.2.4 para grabar la pantalla en Windows, configurar audio y efectos, y exportar videos.
 site_author: AlfonsoAutomatiza.com
-repo_url: https://github.com/wertyMSD/manual-recwerty
-repo_name: wertyMSD/manual-recwerty
+repo_url: https://github.com/alfonsoautomatiza/recwerty
+repo_name: alfonsoautomatiza/recwerty
 exclude_docs: |
   indice_docs.md
   **/indice_*.md
@@ -286,10 +286,14 @@ plugins:
 
 extra:
   social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/alfonsoautomatiza/recwerty
+      name: GitHub
+    - icon: fontawesome/solid/triangle-exclamation
+      link: https://github.com/alfonsoautomatiza/recwerty/issues
+      name: Reportar incidencia
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/%E2%98%85alfonso-martinez-gonzalez%E2%98%85-19236218/
-    - icon: fontawesome/brands/github
-      link: https://github.com/wertyMSD
   analytics:
     provider: google
     property: G-9FBB0G8XHG
