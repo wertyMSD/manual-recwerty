@@ -104,7 +104,6 @@ plugins:
             language: en
           nav:
             - Home: index.md
-            - What's new: novedades.md
             - Get started:
               - What is RecWERTY?: que-es-recwerty.md
               - Installation:
@@ -161,7 +160,6 @@ plugins:
             language: fr
           nav:
             - Accueil: index.md
-            - Nouveautés: novedades.md
             - Bien démarrer:
               - Qu'est-ce que RecWERTY ?: que-es-recwerty.md
               - Installation:
