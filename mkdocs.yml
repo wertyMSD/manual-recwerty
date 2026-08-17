@@ -289,9 +289,6 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/alfonsoautomatiza/recwerty
       name: GitHub
-    - icon: fontawesome/solid/triangle-exclamation
-      link: https://github.com/alfonsoautomatiza/recwerty/issues
-      name: Reportar incidencia
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/%E2%98%85alfonso-martinez-gonzalez%E2%98%85-19236218/
   analytics:
