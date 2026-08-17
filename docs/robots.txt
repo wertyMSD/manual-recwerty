@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wertymsd.github.io/manual-recwerty/sitemap.xml
+Sitemap: https://alfonsoautomatiza.github.io/recwerty/sitemap.xml
