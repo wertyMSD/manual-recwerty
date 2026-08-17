@@ -1,6 +1,9 @@
 ---
 title: Notes Techniques
 description: Répertoires de données utilisateur, formats de sortie et encodage accéléré par GPU dans RecWERTY.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Notes techniques

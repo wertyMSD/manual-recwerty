@@ -1,6 +1,9 @@
 ---
 title: Render Queue
 description: Render queue management in RecWERTY — parallel jobs, pause, resume, and cancel.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Render queue

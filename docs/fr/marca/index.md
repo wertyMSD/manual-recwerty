@@ -1,6 +1,9 @@
 ---
 title: Personnalisation de la Marque
 description: Système de marque RecWERTY pour créer des intros animées professionnelles avec logo, couleurs d'entreprise et typographie.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Personnalisation de la marque

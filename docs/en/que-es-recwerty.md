@@ -1,6 +1,9 @@
 ---
 title: What is RecWERTY?
 description: Learn about RecWERTY, the professional screen recording tool with visual effects, audio enhancement, and branding.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # What is RecWERTY?

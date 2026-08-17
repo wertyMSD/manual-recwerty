@@ -1,9 +1,12 @@
 ---
-title: License and Updates
-description: PRO license management and automatic updates in RecWERTY.
+title: License and Versions
+description: PRO license management and end-user version distribution for RecWERTY.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
-# License and updates
+# License and versions
 
 ## License status
 
@@ -12,15 +15,13 @@ description: PRO license management and automatic updates in RecWERTY.
 
 ## Activation
 
-1. Go to **Settings** > **License & updates**.
+1. Go to **Settings** > **License**.
 2. Enter your license key.
 3. Click **Activate**.
 
-## Updates
+## New versions
 
-- RecWERTY checks for updates automatically on startup (configurable).
-- Partial updates are downloaded in the background.
-- The current version is displayed on the About screen.
+New end-user versions are distributed through the official installer or Microsoft Store when available. RecWERTY doesn't download partial updates or run an in-app updater.
 
 ## License and configuration files
 

@@ -1,6 +1,9 @@
 ---
 title: Audio
 description: Configuration audio et amélioration vocale dans RecWERTY avec des filtres professionnels de qualité studio.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Audio

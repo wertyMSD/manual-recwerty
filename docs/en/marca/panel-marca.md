@@ -1,6 +1,9 @@
 ---
 title: Brand Panel
 description: Brand customization panel in RecWERTY — logo, colors, typography, and animated intro templates.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Brand panel

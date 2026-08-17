@@ -1,6 +1,9 @@
 ---
 title: Particle Effects
 description: Dynamic particle system to add motion to your RecWERTY recordings.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Particle effects

@@ -1,12 +1,14 @@
 ---
 title: Paramètres Généraux
-description: Configuration générale dans RecWERTY — licence, mises à jour automatiques et langue.
+description: Paramètres généraux de RecWERTY pour la licence, la langue et les préférences utilisateur.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Paramètres généraux
 
 - **Licence** : Activation de la licence PRO.
-- **Mises à jour automatiques** : Vérifier au démarrage.
 - **Langue** : Español, English, Français.
 
 !!! tip "Langue"

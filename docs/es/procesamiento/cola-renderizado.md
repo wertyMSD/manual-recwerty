@@ -1,28 +1,29 @@
 ---
 title: Cola de Renderizado
-description: Gestión de la cola de renderizado en RecWERTY: trabajos en paralelo, pausar, reanudar y cancelar.
+description: Cómo seguir el progreso de videos que RecWERTY está procesando.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Cola de renderizado
 
-La cola de renderizado permite procesar múltiples videos en paralelo.
+La cola de renderizado muestra el progreso de los videos que RecWERTY está procesando. Usala para saber si una grabación está esperando, en proceso, completada o si necesita atención.
 
-## Características
+## Qué muestra
 
-- **Máximo 2 trabajos simultáneos**: Para no saturar el sistema.
-- **Cola FIFO**: Los trabajos se procesan en orden.
-- **Pausar/Reanudar**: Podés pausar la cola sin cancelar los trabajos en curso.
-- **Cancelar**: Cancelación limpia de trabajos individuales.
-- **Notificaciones**: Signals de progreso por trabajo.
+- Nombre del trabajo.
+- Barra de progreso.
+- Estado del procesamiento.
+- Acciones disponibles para el trabajo.
 
 ## Acceso
 
-Desde el panel lateral: **Cola** (ícono de lista). Allí ves:
+Desde el panel lateral, abrí **Cola**. Allí podés seguir el avance sin buscar archivos temporales ni detalles técnicos.
 
-- Nombre del trabajo
-- Barra de progreso individual
-- Estado: pending, rendering, completed, failed
-- Botón para cancelar/pausar
+!!! tip "Cuándo mirar la cola"
+    Revisala después de detener una grabación, después de importar un video o cuando quieras confirmar que el MP4 final ya terminó de generarse.
 
-!!! tip "Trabajos simultáneos"
-    El límite de 2 trabajos simultáneos evita la saturación del sistema. Los trabajos adicionales esperan en cola FIFO.
+## Resultado final
+
+Cuando el trabajo termina correctamente, buscá el MP4 en `Documentos\RecWERTY\recordings` o en la carpeta de salida que hayas elegido.

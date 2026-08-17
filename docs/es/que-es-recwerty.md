@@ -1,6 +1,9 @@
 ---
 title: ¿Qué es RecWERTY?
 description: Conocé RecWERTY, la herramienta profesional para grabación de pantalla con efectos visuales, mejora de audio y personalización de marca.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # ¿Qué es RecWERTY?

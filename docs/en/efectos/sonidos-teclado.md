@@ -1,6 +1,9 @@
 ---
 title: Keyboard Sounds
 description: Polyphonic keyboard sound system in RecWERTY with variation by key type and typing speed.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Polyphonic keyboard sounds

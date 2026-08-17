@@ -1,6 +1,9 @@
 ---
 title: Panneau de Navigation et Barre d'État
 description: Description de la barre latérale gauche et de la barre d'état supérieure de RecWERTY.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Panneau de navigation (barre latérale gauche)

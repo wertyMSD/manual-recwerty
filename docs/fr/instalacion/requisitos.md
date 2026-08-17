@@ -1,6 +1,9 @@
 ---
 title: Prérequis Système
-description: Configuration minimale et recommandée pour exécuter RecWERTY v3.2 sur Windows.
+description: Configuration minimale et recommandée pour installer et utiliser RecWERTY 3.2.3 sous Windows 10 ou 11.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Prérequis système
@@ -8,22 +11,14 @@ description: Configuration minimale et recommandée pour exécuter RecWERTY v3.2
 | Composant | Configuration requise |
 |---|---|
 | **Système d'exploitation** | Windows 10 ou 11 (64 bits) |
-| **Python** | 3.13 ou supérieur |
 | **RAM** | 8 Go minimum (16 Go recommandé) |
-| **GPU** | NVIDIA (NVENC), Intel (QuickSync) ou AMD (AMF) pour l'encodage accéléré |
+| **GPU** | Recommandé pour accélérer le traitement vidéo |
 | **Disque** | 500 Mo pour l'application, plus d'espace pour les enregistrements |
-| **FFmpeg** | Installé et accessible dans `PATH` |
+| **Internet** | Nécessaire pour l'installation et le téléchargement de composants si besoin |
 
-## Dépendances logicielles
+## Traitement vidéo
 
-- **Python 3.13+** : [Télécharger Python](https://www.python.org/downloads/)
-- **uv** : Gestionnaire de paquets
+RecWERTY utilise FFmpeg pour traiter et exporter les vidéos. Si le composant manque, l'application peut le télécharger pendant son utilisation.
 
-    ```powershell
-    powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-    ```
-
-- **FFmpeg** : [Télécharger FFmpeg](https://ffmpeg.org/download.html) et l'ajouter au `PATH`
-
-!!! warning "FFmpeg est obligatoire"
-    Sans FFmpeg installé et accessible depuis `PATH`, RecWERTY ne peut pas traiter ni encoder les vidéos. Vérifiez l'installation avec `ffmpeg -version` dans un terminal.
+!!! tip "Pour les utilisateurs finaux"
+    L'installateur officiel ne demande ni Python, ni commandes, ni modification des variables système.

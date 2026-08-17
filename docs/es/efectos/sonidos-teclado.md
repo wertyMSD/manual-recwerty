@@ -1,6 +1,9 @@
 ---
 title: Sonidos de Teclado
 description: Sistema de sonidos polifónicos de teclado en RecWERTY con variación por tipo de tecla y velocidad de tipeo.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Sonidos de teclado polifónicos

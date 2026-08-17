@@ -1,6 +1,9 @@
 ---
 title: Interfaz Principal
 description: Descripción general de la interfaz de RecWERTY, diseño oscuro tipo Nothing con acentos rojos.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Interfaz principal

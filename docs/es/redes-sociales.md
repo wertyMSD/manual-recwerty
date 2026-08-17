@@ -1,6 +1,9 @@
 ---
 title: Exportación para Redes Sociales
 description: Presets optimizados de exportación para YouTube, TikTok, Instagram, Twitter/X, LinkedIn y WhatsApp en RecWERTY.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Exportación para redes sociales

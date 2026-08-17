@@ -1,6 +1,9 @@
 ---
 title: Importar y Procesar Videos Existentes
-description: Importá videos ya grabados para aplicarles los efectos de RecWERTY: trim, fondo, voz en off y pipeline completo.
+description: "Importá videos ya grabados para aplicarles los efectos de RecWERTY: trim, fondo, voz en off y pipeline completo."
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Importar y procesar videos existentes

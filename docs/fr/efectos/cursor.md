@@ -1,6 +1,9 @@
 ---
 title: Effets du Curseur
 description: Traînée du curseur et lueur dans RecWERTY.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Traînée du curseur

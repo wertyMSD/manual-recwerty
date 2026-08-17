@@ -1,6 +1,9 @@
 ---
 title: Paramètres et Configuration
 description: Paramètres d'exportation et configuration générale dans RecWERTY.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Paramètres et configuration

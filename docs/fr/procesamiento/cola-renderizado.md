@@ -1,6 +1,9 @@
 ---
 title: File de Rendu
 description: Gestion de la file de rendu dans RecWERTY — travaux en parallèle, pause, reprise et annulation.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # File de rendu

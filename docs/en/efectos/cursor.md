@@ -1,6 +1,9 @@
 ---
 title: Cursor Effects
 description: Cursor comet trail and glow effects in RecWERTY.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Cursor trail

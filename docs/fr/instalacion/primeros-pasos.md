@@ -1,6 +1,9 @@
 ---
 title: Premiers Pas
 description: Configuration initiale et premier enregistrement avec RecWERTY.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Premiers pas

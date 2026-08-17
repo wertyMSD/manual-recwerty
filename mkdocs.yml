@@ -1,12 +1,19 @@
-site_name: Manual RecWERTY
-site_url: https://wertymsd.github.io/manual-recwerty
-site_description: Manual de usuario de RecWERTY v3.2 — herramienta profesional de grabación de pantalla con efectos visuales, mejora de audio y personalización de marca.
-site_author: Alfonso Martinez
+site_name: Manual de usuario de RecWERTY
+site_url: https://wertymsd.github.io/manual-recwerty/
+site_description: Manual de RecWERTY 3.2.3 para grabar la pantalla en Windows, configurar audio y efectos, y exportar videos.
+site_author: AlfonsoAutomatiza.com
+repo_url: https://github.com/wertyMSD/manual-recwerty
+repo_name: wertyMSD/manual-recwerty
+exclude_docs: |
+  indice_docs.md
+  **/indice_*.md
+  es/capturas-checklist.md
 
 copyright: Copyright &copy; 2026 Alfonso Martinez - RecWERTY
 
 theme:
   name: material
+  custom_dir: overrides
   language: es
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -23,14 +30,13 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Cambiar a modo claro
-  font:
-    text: Roboto
-    code: Roboto Mono
+  font: false
   features:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
-    - navigation.expand
+    - navigation.footer
+    - navigation.path
     - navigation.top
     - navigation.tracking
     - navigation.indexes
@@ -81,152 +87,191 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
+extra_css:
+  - assets/stylesheets/extra.css
+
 plugins:
   - i18n:
       docs_structure: folder
+      fallback_to_default: false
       languages:
+        - locale: en
+          name: English
+          build: true
+          site_name: RecWERTY User Manual
+          site_description: RecWERTY 3.2.3 user guide for recording the Windows screen, configuring audio and effects, and exporting videos.
+          theme:
+            language: en
+          nav:
+            - Home: index.md
+            - What's new: novedades.md
+            - Get started:
+              - What is RecWERTY?: que-es-recwerty.md
+              - Installation:
+                - Overview: instalacion/index.md
+                - System requirements: instalacion/requisitos.md
+                - Install RecWERTY: instalacion/instalacion.md
+                - First recording: instalacion/primeros-pasos.md
+              - Interface:
+                - Overview: interfaz/index.md
+                - Navigation: interfaz/navegacion.md
+            - Record:
+              - Capture:
+                - Choose what to capture: captura/index.md
+                - Record the screen: captura/grabacion.md
+              - Audio:
+                - Overview: audio/index.md
+                - Voice enhancement: audio/mejora-voz.md
+                - Configure audio: audio/configuracion.md
+              - Effects:
+                - Overview: efectos/index.md
+                - Click: efectos/click.md
+                - Cursor: efectos/cursor.md
+                - Particles: efectos/particulas.md
+                - Transitions: efectos/transiciones.md
+                - Keyboard sounds: efectos/sonidos-teclado.md
+              - Keyboard shortcuts: atajos.md
+            - Export:
+              - Settings:
+                - Overview: ajustes/index.md
+                - Export settings: ajustes/exportacion.md
+                - General settings: ajustes/generales.md
+              - Processing:
+                - How processing works: procesamiento/index.md
+                - Track a job: procesamiento/cola-renderizado.md
+              - Import a video: importar.md
+              - Social media export: redes-sociales.md
+              - GIF export: gif.md
+            - Customize:
+              - Branding:
+                - Overview: marca/index.md
+                - Brand panel: marca/panel-marca.md
+                - Brand presets: marca/presets.md
+              - Presets and backups: presets-respaldos.md
+            - Help:
+              - Troubleshooting: solucion-problemas.md
+              - License and versions: licencia.md
+              - Technical notes: notas-tecnicas.md
+        - locale: fr
+          name: Français
+          build: true
+          site_name: Manuel d'utilisation de RecWERTY
+          site_description: Guide de RecWERTY 3.2.3 pour enregistrer l'écran Windows, configurer l'audio et les effets, et exporter des vidéos.
+          theme:
+            language: fr
+          nav:
+            - Accueil: index.md
+            - Nouveautés: novedades.md
+            - Bien démarrer:
+              - Qu'est-ce que RecWERTY ?: que-es-recwerty.md
+              - Installation:
+                - Vue d'ensemble: instalacion/index.md
+                - Prérequis système: instalacion/requisitos.md
+                - Installer RecWERTY: instalacion/instalacion.md
+                - Premier enregistrement: instalacion/primeros-pasos.md
+              - Interface:
+                - Vue d'ensemble: interfaz/index.md
+                - Navigation: interfaz/navegacion.md
+            - Enregistrer:
+              - Capture:
+                - Choisir la capture: captura/index.md
+                - Enregistrer l'écran: captura/grabacion.md
+              - Audio:
+                - Vue d'ensemble: audio/index.md
+                - Amélioration vocale: audio/mejora-voz.md
+                - Configurer l'audio: audio/configuracion.md
+              - Effets:
+                - Vue d'ensemble: efectos/index.md
+                - Clic: efectos/click.md
+                - Curseur: efectos/cursor.md
+                - Particules: efectos/particulas.md
+                - Transitions: efectos/transiciones.md
+                - Sons de clavier: efectos/sonidos-teclado.md
+              - Raccourcis clavier: atajos.md
+            - Exporter:
+              - Paramètres:
+                - Vue d'ensemble: ajustes/index.md
+                - Paramètres d'exportation: ajustes/exportacion.md
+                - Paramètres généraux: ajustes/generales.md
+              - Traitement:
+                - Fonctionnement du traitement: procesamiento/index.md
+                - Suivre un travail: procesamiento/cola-renderizado.md
+              - Importer une vidéo: importar.md
+              - Export pour réseaux sociaux: redes-sociales.md
+              - Export GIF: gif.md
+            - Personnaliser:
+              - Marque:
+                - Vue d'ensemble: marca/index.md
+                - Panneau Marque: marca/panel-marca.md
+                - Presets de marque: marca/presets.md
+              - Presets et sauvegardes: presets-respaldos.md
+            - Aide:
+              - Dépannage: solucion-problemas.md
+              - Licence et versions: licencia.md
+              - Notes techniques: notas-tecnicas.md
+        # El locale por defecto (es) se construye EN ÚLTIMO LUGAR a propósito:
+        # con docs_structure folder cada build re-renderiza sitemap.xml y
+        # sobrevive el del último idioma; así el sitemap final es el completo
+        # del idioma principal (ver overrides/sitemap.xml).
         - locale: es
           default: true
           name: Español
           build: true
+          site_name: Manual de usuario de RecWERTY
+          site_description: Manual de RecWERTY 3.2.3 para grabar la pantalla en Windows, configurar audio y efectos, y exportar videos.
           nav:
             - Inicio: index.md
-            - ¿Qué es RecWERTY?: que-es-recwerty.md
-            - Instalación:
-              - General: instalacion/index.md
-              - Requisitos del sistema: instalacion/requisitos.md
-              - Instalación: instalacion/instalacion.md
-              - Primeros pasos: instalacion/primeros-pasos.md
-            - Interfaz:
-              - General: interfaz/index.md
-              - Navegación: interfaz/navegacion.md
-            - Captura:
-              - General: captura/index.md
-              - Grabación: captura/grabacion.md
-            - Efectos:
-              - General: efectos/index.md
-              - Clic: efectos/click.md
-              - Cursor: efectos/cursor.md
-              - Partículas: efectos/particulas.md
-              - Transiciones: efectos/transiciones.md
-              - Sonidos de teclado: efectos/sonidos-teclado.md
-            - Audio:
-              - General: audio/index.md
-              - Mejora de voz: audio/mejora-voz.md
-              - Configuración: audio/configuracion.md
-            - Marca:
-              - General: marca/index.md
-              - Panel de marca: marca/panel-marca.md
-              - Presets: marca/presets.md
-            - Ajustes:
-              - General: ajustes/index.md
-              - Exportación: ajustes/exportacion.md
-              - Generales: ajustes/generales.md
-            - Procesamiento:
-              - General: procesamiento/index.md
-              - Cola de renderizado: procesamiento/cola-renderizado.md
-            - Importar: importar.md
-            - Redes sociales: redes-sociales.md
-            - GIF: gif.md
-            - Atajos: atajos.md
-            - Licencia: licencia.md
-            - Presets y respaldos: presets-respaldos.md
-            - Solución de problemas: solucion-problemas.md
-            - Notas técnicas: notas-tecnicas.md
-        - locale: en
-          name: English
-          build: true
-          nav:
-            - Home: index.md
-            - What is RecWERTY?: que-es-recwerty.md
-            - Installation:
-              - Overview: instalacion/index.md
-              - System requirements: instalacion/requisitos.md
-              - Installation: instalacion/instalacion.md
-              - Getting started: instalacion/primeros-pasos.md
-            - Interface:
-              - Overview: interfaz/index.md
-              - Navigation: interfaz/navegacion.md
-            - Capture:
-              - Overview: captura/index.md
-              - Recording: captura/grabacion.md
-            - Effects:
-              - Overview: efectos/index.md
-              - Click: efectos/click.md
-              - Cursor: efectos/cursor.md
-              - Particles: efectos/particulas.md
-              - Transitions: efectos/transiciones.md
-              - Keyboard sounds: efectos/sonidos-teclado.md
-            - Audio:
-              - Overview: audio/index.md
-              - Voice enhancement: audio/mejora-voz.md
-              - Configuration: audio/configuracion.md
-            - Branding:
-              - Overview: marca/index.md
-              - Brand panel: marca/panel-marca.md
-              - Presets: marca/presets.md
-            - Settings:
-              - Overview: ajustes/index.md
-              - Export: ajustes/exportacion.md
-              - General: ajustes/generales.md
-            - Processing:
-              - Overview: procesamiento/index.md
-              - Render queue: procesamiento/cola-renderizado.md
-            - Import: importar.md
-            - Social media: redes-sociales.md
-            - GIF: gif.md
-            - Shortcuts: atajos.md
-            - License: licencia.md
-            - Presets & backups: presets-respaldos.md
-            - Troubleshooting: solucion-problemas.md
-            - Technical notes: notas-tecnicas.md
-        - locale: fr
-          name: Français
-          build: true
-          nav:
-            - Accueil: index.md
-            - Qu'est-ce que RecWERTY ?: que-es-recwerty.md
-            - Installation:
-              - Général: instalacion/index.md
-              - Prérequis système: instalacion/requisitos.md
-              - Installation: instalacion/instalacion.md
-              - Premiers pas: instalacion/primeros-pasos.md
-            - Interface:
-              - Général: interfaz/index.md
-              - Navigation: interfaz/navegacion.md
-            - Capture:
-              - Général: captura/index.md
-              - Enregistrement: captura/grabacion.md
-            - Effets:
-              - Général: efectos/index.md
-              - Clic: efectos/click.md
-              - Curseur: efectos/cursor.md
-              - Particules: efectos/particulas.md
-              - Transitions: efectos/transiciones.md
-              - Sons de clavier: efectos/sonidos-teclado.md
-            - Audio:
-              - Général: audio/index.md
-              - Amélioration vocale: audio/mejora-voz.md
-              - Configuration: audio/configuracion.md
-            - Marque:
-              - Général: marca/index.md
-              - Panneau Marque: marca/panel-marca.md
-              - Presets: marca/presets.md
-            - Paramètres:
-              - Général: ajustes/index.md
-              - Exportation: ajustes/exportacion.md
-              - Généraux: ajustes/generales.md
-            - Traitement:
-              - Général: procesamiento/index.md
-              - File de rendu: procesamiento/cola-renderizado.md
-            - Importer: importar.md
-            - Réseaux sociaux: redes-sociales.md
-            - GIF: gif.md
-            - Raccourcis: atajos.md
-            - Licence: licencia.md
-            - Presets et sauvegardes: presets-respaldos.md
-            - Dépannage: solucion-problemas.md
-            - Notes techniques: notas-tecnicas.md
+            - Novedades: novedades.md
+            - Empezar:
+              - ¿Qué es RecWERTY?: que-es-recwerty.md
+              - Instalación:
+                - Vista general: instalacion/index.md
+                - Requisitos del sistema: instalacion/requisitos.md
+                - Instalar RecWERTY: instalacion/instalacion.md
+                - Instalador de Windows: instalacion/instalador-windows.md
+                - Primera grabación: instalacion/primeros-pasos.md
+              - Conocer la interfaz:
+                - Vista general: interfaz/index.md
+                - Navegación: interfaz/navegacion.md
+            - Grabar:
+              - Captura:
+                - Elegir qué capturar: captura/index.md
+                - Grabar la pantalla: captura/grabacion.md
+              - Audio:
+                - Vista general: audio/index.md
+                - Mejora de voz: audio/mejora-voz.md
+                - Configurar audio: audio/configuracion.md
+              - Efectos:
+                - Vista general: efectos/index.md
+                - Clic: efectos/click.md
+                - Cursor: efectos/cursor.md
+                - Partículas: efectos/particulas.md
+                - Transiciones: efectos/transiciones.md
+                - Sonidos de teclado: efectos/sonidos-teclado.md
+              - Atajos de teclado: atajos.md
+            - Exportar:
+              - Ajustes:
+                - Vista general: ajustes/index.md
+                - Configurar exportación: ajustes/exportacion.md
+                - Preferencias generales: ajustes/generales.md
+              - Procesamiento:
+                - Cómo se procesa un video: procesamiento/index.md
+                - Seguir un trabajo: procesamiento/cola-renderizado.md
+              - Importar un video: importar.md
+              - Exportar para redes sociales: redes-sociales.md
+              - Exportar un GIF: gif.md
+            - Personalizar:
+              - Marca:
+                - Vista general: marca/index.md
+                - Configurar la marca: marca/panel-marca.md
+                - Presets de marca: marca/presets.md
+              - Presets y respaldos: presets-respaldos.md
+            - Ayuda:
+              - Solución de problemas: solucion-problemas.md
+              - Licencia y versiones: licencia.md
+              - Microsoft Store: store.md
+              - Notas técnicas: notas-tecnicas.md
+              - Política de privacidad: privacidad.md
   - search:
       separator: '[\s\-\.]+'
       lang:
@@ -247,7 +292,7 @@ extra:
       link: https://github.com/wertyMSD
   analytics:
     provider: google
-    property: G-5G9B7PZHS4
+    property: G-9FBB0G8XHG
     feedback:
       title: ¿Esta página le ha sido útil?
       ratings:
@@ -266,3 +311,13 @@ extra:
       así como para medir la eficacia de nuestra documentación y si los usuarios
       encuentran lo que buscan. Con su consentimiento, nos ayuda a mejorar
       nuestra documentación.
+# Navigation structure
+nav:
+  # Spanish (default)
+  - Inicio:
+    - index.md
+    - Manual publicado: https://wertymsd.github.io/manual-recwerty
+    - Microsoft Store: es/store.md
+    - Política de privacidad: es/privacidad.md
+  - Sobre Nosotros: 'https://www.linkedin.com/in/%E2%98%85alfonso-martinez-gonzalez%E2%98%85-19236218/'
+  - Repositorio: https://github.com/wertyMSD/manual-recwerty

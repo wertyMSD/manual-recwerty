@@ -1,6 +1,9 @@
 ---
 title: Importer et Traiter des Vidéos Existantes
 description: Importez des vidéos déjà enregistrées pour leur appliquer les effets RecWERTY — rognage, arrière-plan, voix off et pipeline complet.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Importer et traiter des vidéos existantes

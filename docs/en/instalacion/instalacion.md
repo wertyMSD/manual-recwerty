@@ -1,38 +1,29 @@
 ---
-title: Installing RecWERTY
-description: Installation from source code with git and uv, or from a compiled executable on Windows.
+title: Installing RecWERTY on Windows
+description: How to install RecWERTY on Windows from the official installer or Microsoft Store when available.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Installation
 
-## From source code
+## Quick path
 
-```bash
-# 1. Clone the repository
-git clone <repo-url>
-cd recwerty
+1. Run `Setup_RecWERTY.exe` from the official channel, or install RecWERTY from Microsoft Store when it becomes available.
+2. Follow the installation wizard.
+3. Find **RecWERTY** in the Windows Start menu and open it.
 
-# 2. Install dependencies
-uv sync
+!!! info "Updates"
+    End-user updates are distributed as new official installer versions or through Microsoft Store. RecWERTY has no in-app updater.
 
-# 3. Optional: install build dependencies (to compile executable)
-uv sync --extra build
-
-# 4. Generate assets (sounds, images)
-uv run python generate_assets.py
-
-# 5. Run
-uv run python main.py
-```
-
-## Compiled executable (Windows)
-
-If you have the compiled executable (`.exe`), simply run it. User data is stored at:
+## User data locations
 
 - **Configuration**: `%APPDATA%\RecWERTY\`
 - **Recordings**: `Documents\RecWERTY\recordings\`
 - **Brand presets**: `Documents\RecWERTY\brands\`
-- **Temporary files**: `Documents\RecWERTY\temp\`
+- **Snapshots**: `Documents\RecWERTY\snapshots\`
 
-!!! tip "Audio dependencies"
-    If running from source, make sure you have the required audio dependencies. For the compiled executable, verify that the corresponding `.pyd` file is present.
+## Next step
+
+Continue with [Getting started](primeros-pasos.md) to make your first recording.

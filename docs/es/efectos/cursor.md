@@ -1,6 +1,9 @@
 ---
 title: Efectos de Cursor
 description: Estela del cursor tipo comet trail y destello en RecWERTY.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Estela del cursor

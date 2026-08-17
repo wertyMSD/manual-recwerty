@@ -1,6 +1,9 @@
 ---
 title: Paramètres d'Exportation
 description: Configuration d'exportation dans RecWERTY — presets, qualité, CRF, preset FFmpeg et intention.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Paramètres d'exportation

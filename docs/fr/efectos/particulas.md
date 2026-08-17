@@ -1,6 +1,9 @@
 ---
 title: Effets de Particules
 description: Système de particules dynamiques pour ajouter du dynamisme à vos enregistrements RecWERTY.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Effets de particules

@@ -1,6 +1,9 @@
 ---
 title: Import and Process Existing Videos
 description: Import previously recorded videos and apply RecWERTY effects — trim, background, voice-over, and full pipeline.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Import and process existing videos

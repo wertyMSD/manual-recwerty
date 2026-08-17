@@ -1,6 +1,9 @@
 ---
 title: Panneau Marque
 description: Panneau de personnalisation de la marque dans RecWERTY — logo, couleurs, typographie et templates d'intro animée.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Panneau Marque

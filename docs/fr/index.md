@@ -1,12 +1,15 @@
 ---
-title: Manuel d'Utilisation — RecWERTY v3.2
-description: Guide complet de RecWERTY, un outil professionnel de capture d'écran avec effets visuels, amélioration audio et personnalisation de marque.
+title: Enregistrer l'écran Windows avec RecWERTY
+description: Apprenez à installer RecWERTY 3.2.3, enregistrer l'écran Windows, configurer l'audio et les effets, et exporter des vidéos MP4.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
-# Manuel d'Utilisation — RecWERTY v3.2
+# Manuel RecWERTY pour enregistrer l'écran sous Windows
 
 > **RecWERTY** : Capture d'écran professionnelle avec effets de mouvement et amélioration audio.
-> Version 3.2 | Windows | Python 3.13
+> Version 3.2.3 | Windows
 
 ---
 
@@ -54,4 +57,4 @@ RecWERTY est un outil professionnel de capture d'écran conçu pour créer des *
 
 ---
 
-*RecWERTY v3.2 | Documentation pour utilisateurs finaux*
+*RecWERTY v3.2.3 | Documentation pour utilisateurs finaux*

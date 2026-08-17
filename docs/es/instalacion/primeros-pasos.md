@@ -1,15 +1,33 @@
 ---
 title: Primeros Pasos
-description: Configuración inicial y primera grabación con RecWERTY.
+description: configuración inicial y primera grabación con RecWERTY.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Primeros pasos
 
-1. Abrí RecWERTY. Se abre en pantalla completa con una interfaz oscura moderna.
-2. En el panel lateral izquierdo, seleccioná **Inicio**.
-3. Elegí tu **modo de captura**: Pantalla completa, Ventana o Zona personalizada.
-4. Configurá las opciones de audio, marca y efectos desde los paneles laterales.
-5. Hacé clic en **LANZAR GRABACIÓN**.
+## Primera grabación en 5 pasos
+
+1. Abrí RecWERTY y entrá en **Inicio**.
+2. Elegí qué querés capturar: **Pantalla completa**, **Ventana** o **Zona**.
+3. Activá o desactivá **micrófono** y **sonido del sistema**.
+4. Revisá si querés aplicar marca, intro, ending o efectos visuales.
+5. Iniciá la grabación con **Win + Alt + C** o con el botón principal de grabación.
 
 !!! success "Listo"
-    Ya estás grabando. Consultá la sección [Grabación](../captura/grabacion.md) para conocer todas las opciones durante la captura.
+    Cuando termines, detené la captura con **Alt + R** o **Win + Alt + C**. Después revisá el resultado y exportalo como MP4.
+
+## Qué revisar antes de grabar
+
+| Revisá | Por qué importa |
+|---|---|
+| Modo de captura | Evita grabar más pantalla de la necesaria. |
+| Audio | Confirma si se grabará tu voz, el sonido del sistema o ambos. |
+| Marca | Aplica intros, endings, logos y presets si el video es corporativo. |
+| Carpeta de salida | Te ayuda a encontrar el MP4 final sin buscarlo manualmente. |
+
+## Siguiente paso
+
+Consultá [Grabación](../captura/grabacion.md) para ver controles durante la captura y qué ocurre al detenerla.

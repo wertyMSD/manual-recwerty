@@ -1,6 +1,9 @@
 ---
 title: Social Media Export
 description: Optimized export presets for YouTube, TikTok, Instagram, Twitter/X, LinkedIn, and WhatsApp in RecWERTY.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Social media export

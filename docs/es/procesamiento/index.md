@@ -1,6 +1,9 @@
 ---
 title: Procesamiento y Renderizado
-description: Pipeline de procesamiento de video en RecWERTY: efectos, audio, intro y render final con FFmpeg.
+description: "Pipeline de procesamiento de video en RecWERTY: efectos, audio, intro y render final con FFmpeg."
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Procesamiento y renderizado

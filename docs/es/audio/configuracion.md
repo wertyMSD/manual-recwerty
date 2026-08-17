@@ -1,6 +1,9 @@
 ---
-title: Configuración de Audio
-description: Opciones de configuración de audio en RecWERTY: micrófono, sonido del sistema y sonidos de teclado.
+title: configuración de Audio
+description: "Opciones de configuración de audio en RecWERTY: micrófono, sonido del sistema y sonidos de teclado."
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Configuración de audio

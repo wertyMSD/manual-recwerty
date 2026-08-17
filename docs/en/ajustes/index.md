@@ -1,6 +1,9 @@
 ---
 title: Settings and Configuration
 description: Export settings and general configuration in RecWERTY.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Settings and configuration

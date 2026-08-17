@@ -1,0 +1,18 @@
+{
+  "project": "recwerty",
+  "channel": "stable",
+  "latest": "3.2.4",
+  "key_id": "global-2026-01",
+  "generated_at": "2026-08-17T07:25:56.463269+00:00",
+  "releases": [
+    {
+      "version": "3.2.4",
+      "type": "full",
+      "target": "win-x64",
+      "url": "https://github.com/wertyMSD/manual-recwerty/releases/download/v3.2.4/recwerty-3.2.4-win-x64-stable.zip",
+      "sha256": "69c651764081e3d19d10f058e63211bd3840d16cd587a52a470db71e18381b95",
+      "size": 284635596
+    }
+  ],
+  "signature": "k8Fucw4P+92yX8Q/nqn1C0tKdR6NCNMuvNOHrsY1rfRmsUr+h5samxoon+Mjpt7l4BLOpmo+4/MP8+pAI6gyDg=="
+}

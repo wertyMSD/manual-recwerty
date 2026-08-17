@@ -1,6 +1,9 @@
 ---
 title: Presets et Sauvegardes
 description: Système de presets de marque dans RecWERTY — structure des répertoires, sauvegardes automatiques et format .recbrand.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Presets et sauvegardes

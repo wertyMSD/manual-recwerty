@@ -1,6 +1,9 @@
 ---
 title: Presets de Marca
-description: Gestión de presets de marca en RecWERTY: guardar, cargar, importar y exportar en formato .recbrand.
+description: "Gestión de presets de marca en RecWERTY: guardar, cargar, importar y exportar en formato .recbrand."
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Presets de marca

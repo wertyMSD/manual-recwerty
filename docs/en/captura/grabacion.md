@@ -1,6 +1,9 @@
 ---
 title: Recording
 description: Complete recording workflow in RecWERTY — before, during, and after screen capture.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Recording

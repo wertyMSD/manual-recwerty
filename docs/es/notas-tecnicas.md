@@ -1,6 +1,9 @@
 ---
 title: Notas Técnicas
 description: Directorios de datos de usuario, formatos de salida y codificación acelerada por GPU en RecWERTY.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Notas técnicas

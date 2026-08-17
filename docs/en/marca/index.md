@@ -1,6 +1,9 @@
 ---
 title: Branding
 description: RecWERTY branding system for creating professional animated intros with logo, corporate colors, and typography.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Branding

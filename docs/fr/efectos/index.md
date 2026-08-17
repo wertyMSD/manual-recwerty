@@ -1,6 +1,9 @@
 ---
 title: Effets et Mouvement
 description: RecWERTY inclut un système d'effets visuels complet — clics, curseur, particules, transitions et sons de clavier.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Effets et mouvement

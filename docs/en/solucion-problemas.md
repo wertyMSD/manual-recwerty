@@ -1,43 +1,43 @@
 ---
 title: Troubleshooting
-description: Common issues in RecWERTY — recording, audio, effects, library errors, and logs.
+description: Fix common RecWERTY recording, audio, installation, and video export problems.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Troubleshooting
 
 ## Recording won't start
 
-1. Verify that FFmpeg is installed: `ffmpeg -version` in terminal.
-2. Check that the microphone is selected correctly.
-3. If using custom region, make sure you drew the rectangle.
+1. Confirm that you selected Full screen, Window, or Region.
+2. If using Region, make sure you drew the capture rectangle.
+3. Close other applications that may block screen capture, then restart RecWERTY.
 
 ## Audio not recording
 
 1. Verify that the microphone is not muted in Windows.
 2. Check the device selection on the home panel.
-3. Review logs at `Documents\RecWERTY\temp\recwerty.log`.
+3. Confirm whether you want to record the microphone, system audio, or both.
 
 ## Rendered video has no effects
 
 1. Verify that effects are enabled in settings.
 2. If using the **Raw/clean** preset, effects are disabled by design.
 
-## `libwertyaudio` library error
+## Video doesn't export
 
-- If running from source, make sure you have the audio dependencies.
-- If using the compiled executable, verify that the `.pyd` file is present.
+1. Check that the output drive has free space.
+2. Confirm that the output folder exists and is writable.
+3. Open the [render queue](procesamiento/cola-renderizado.md) to check the job status.
+4. If prompted, allow RecWERTY to download FFmpeg.
 
-## Compiled executable doesn't work
+## RecWERTY doesn't open after installation
 
-1. Check bootstrap logs in the `temp/` folder next to the `.exe`.
-2. Make sure FFmpeg is accessible from the system `PATH`.
-3. Verify that assets are generated (`generate_assets.py`).
-
-## Where to find logs
-
-- **Development mode**: `Documents\RecWERTY\temp\recwerty.log`
-- **Executable mode**: `temp\recwerty.log` (next to the .exe) and `Documents\RecWERTY\temp\recwerty.log`
-- **Bootstrap**: `temp\recwerty-bootstrap.log`
+1. Confirm that Windows 10 or 11 is 64-bit.
+2. Open RecWERTY again from the Start menu.
+3. Run the official installer again if setup didn't complete.
+4. If SmartScreen appears, verify that the installer came from the official channel.
 
 ## Reporting issues
 

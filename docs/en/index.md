@@ -1,12 +1,15 @@
 ---
-title: User Manual — RecWERTY v3.2
-description: Complete guide to RecWERTY, a professional screen recording tool with visual effects, audio enhancement, and branding.
+title: Record Your Windows Screen with RecWERTY
+description: Learn how to install RecWERTY 3.2.3, record the Windows screen, configure audio and effects, and export MP4 videos.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
-# User Manual — RecWERTY v3.2
+# RecWERTY user manual for Windows screen recording
 
 > **RecWERTY**: Professional screen recording with motion effects and audio enhancement.
-> Version 3.2 | Windows | Python 3.13
+> Version 3.2.3 | Windows
 
 ---
 
@@ -54,4 +57,4 @@ RecWERTY is a professional screen recording tool designed to create **software d
 
 ---
 
-*RecWERTY v3.2 | End-user documentation*
+*RecWERTY v3.2.3 | End-user documentation*

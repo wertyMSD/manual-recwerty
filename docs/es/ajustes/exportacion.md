@@ -1,6 +1,9 @@
 ---
 title: Ajustes de Exportación
-description: Configuración de exportación en RecWERTY: presets, calidad, CRF, preset FFmpeg e intención.
+description: "configuración de exportación en RecWERTY: presets, calidad, CRF, preset FFmpeg e intención."
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Ajustes de exportación

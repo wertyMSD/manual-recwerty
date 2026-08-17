@@ -1,9 +1,12 @@
 ---
-title: Licence et Mises à Jour
-description: Gestion de la licence PRO et mises à jour automatiques dans RecWERTY.
+title: Licence et Versions
+description: Gestion de la licence PRO et distribution des versions de RecWERTY pour les utilisateurs finaux.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
-# Licence et mises à jour
+# Licence et versions
 
 ## Statut de la licence
 
@@ -12,15 +15,13 @@ description: Gestion de la licence PRO et mises à jour automatiques dans RecWER
 
 ## Activation
 
-1. Allez dans **Paramètres** > **Licence & mises à jour**.
+1. Allez dans **Paramètres** > **Licence**.
 2. Saisissez votre clé de licence.
 3. Cliquez sur **Activer**.
 
-## Mises à jour
+## Nouvelles versions
 
-- RecWERTY vérifie les mises à jour automatiquement au démarrage (configurable).
-- Les mises à jour partielles sont téléchargées en arrière-plan.
-- La version actuelle est affichée sur l'écran À propos.
+Les nouvelles versions sont distribuées par l'installateur officiel ou Microsoft Store lorsqu'il sera disponible. RecWERTY ne télécharge pas de mises à jour partielles et n'a pas de système de mise à jour intégré.
 
 ## Fichiers de licence et configuration
 

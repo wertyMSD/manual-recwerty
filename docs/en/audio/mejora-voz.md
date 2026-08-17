@@ -1,6 +1,9 @@
 ---
 title: Voice Enhancement
 description: Professional audio filters in RecWERTY — normalization, noise reduction, compression, and voice equalization.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Voice enhancement (Studio)

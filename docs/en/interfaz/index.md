@@ -1,6 +1,9 @@
 ---
 title: Main Interface
 description: Overview of the RecWERTY interface — Nothing-style dark design with red accents.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Main interface

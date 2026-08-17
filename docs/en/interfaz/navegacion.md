@@ -1,6 +1,9 @@
 ---
 title: Navigation Sidebar and Status Bar
 description: Description of the left sidebar and top status bar in RecWERTY.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Navigation sidebar

@@ -1,6 +1,9 @@
 ---
 title: Technical Notes
 description: User data directories, output formats, and GPU-accelerated encoding in RecWERTY.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Technical notes

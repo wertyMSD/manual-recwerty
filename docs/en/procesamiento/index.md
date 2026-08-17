@@ -1,6 +1,9 @@
 ---
 title: Processing and Rendering
 description: Video processing pipeline in RecWERTY — effects, audio, intro, and final render with FFmpeg.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Processing and rendering

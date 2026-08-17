@@ -1,6 +1,9 @@
 ---
 title: Efectos de Clic
-description: Efectos visuales de clic en RecWERTY: ripple, pulse y sparkle.
+description: "Efectos visuales de clic en RecWERTY: ripple, pulse y sparkle."
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Efectos de clic

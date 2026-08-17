@@ -1,6 +1,9 @@
 ---
 title: System Requirements
-description: Minimum and recommended requirements to run RecWERTY v3.2 on Windows.
+description: Minimum and recommended requirements for installing and using RecWERTY 3.2.3 on Windows 10 or 11.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # System requirements
@@ -8,22 +11,14 @@ description: Minimum and recommended requirements to run RecWERTY v3.2 on Window
 | Component | Requirement |
 |---|---|
 | **Operating system** | Windows 10 or 11 (64-bit) |
-| **Python** | 3.13 or higher |
 | **RAM** | 8 GB minimum (16 GB recommended) |
-| **GPU** | NVIDIA (NVENC), Intel (QuickSync), or AMD (AMF) for hardware encoding |
+| **GPU** | Recommended to speed up video processing |
 | **Disk** | 500 MB for the application, plus space for recordings |
-| **FFmpeg** | Installed and accessible in `PATH` |
+| **Internet** | Required for installation and for downloading components when needed |
 
-## Software dependencies
+## Video processing
 
-- **Python 3.13+**: [Download Python](https://www.python.org/downloads/)
-- **uv**: Package manager
+RecWERTY uses FFmpeg to process and export videos. If the component is missing, the application can download it during use.
 
-    ```powershell
-    powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-    ```
-
-- **FFmpeg**: [Download FFmpeg](https://ffmpeg.org/download.html) and add it to `PATH`
-
-!!! warning "FFmpeg is required"
-    Without FFmpeg installed and accessible from `PATH`, RecWERTY cannot process or encode videos. Verify the installation with `ffmpeg -version` in a terminal.
+!!! tip "For end users"
+    You don't need to install Python, run commands, or change system variables when using the official installer.

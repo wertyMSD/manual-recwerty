@@ -1,6 +1,9 @@
 ---
 title: Panel de Marca
-description: Panel de personalización de marca en RecWERTY: logo, colores, tipografía y templates de intro animada.
+description: "Panel de personalización de marca en RecWERTY: logo, colores, tipografía y templates de intro animada."
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Panel de Marca

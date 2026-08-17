@@ -1,6 +1,9 @@
 ---
-title: Ajustes y Configuración
-description: Configuración de exportación y ajustes generales de RecWERTY.
+title: Ajustes y configuración
+description: configuración de exportación y ajustes generales de RecWERTY.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Ajustes y configuración

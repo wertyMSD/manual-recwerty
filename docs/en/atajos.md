@@ -1,6 +1,9 @@
 ---
 title: Keyboard Shortcuts
 description: Complete list of keyboard shortcuts in RecWERTY for quick control during recording.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Keyboard shortcuts

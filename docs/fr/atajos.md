@@ -1,6 +1,9 @@
 ---
 title: Raccourcis Clavier
 description: Liste complète des raccourcis clavier dans RecWERTY pour un contrôle rapide pendant l'enregistrement.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Raccourcis clavier

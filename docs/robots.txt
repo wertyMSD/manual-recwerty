@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wertymsd.github.io/manual-recwerty/sitemap.xml

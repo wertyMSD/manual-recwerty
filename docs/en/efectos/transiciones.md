@@ -1,6 +1,9 @@
 ---
 title: Transitions
 description: Available transition types in RecWERTY — crossfade, slide, zoom in, wipe, circle reveal, and glitch.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Transitions

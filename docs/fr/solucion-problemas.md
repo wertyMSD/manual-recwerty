@@ -1,43 +1,43 @@
 ---
 title: Dépannage
-description: Problèmes courants dans RecWERTY — enregistrement, audio, effets, erreurs de bibliothèque et logs.
+description: Résoudre les problèmes courants d'enregistrement, d'audio, d'installation et d'export vidéo dans RecWERTY.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Dépannage
 
 ## L'enregistrement ne démarre pas
 
-1. Vérifiez que FFmpeg est installé : `ffmpeg -version` dans un terminal.
-2. Vérifiez que le microphone est correctement sélectionné.
-3. Si vous utilisez une zone personnalisée, assurez-vous d'avoir dessiné le rectangle.
+1. Vérifiez que vous avez choisi Plein écran, Fenêtre ou Zone.
+2. Si vous utilisez Zone, assurez-vous d'avoir dessiné le rectangle de capture.
+3. Fermez les applications susceptibles de bloquer la capture, puis redémarrez RecWERTY.
 
 ## L'audio ne s'enregistre pas
 
 1. Vérifiez que le microphone n'est pas en sourdine dans Windows.
 2. Vérifiez la sélection du périphérique sur le panneau d'accueil.
-3. Consultez les logs dans `Documents\RecWERTY\temp\recwerty.log`.
+3. Confirmez si vous souhaitez enregistrer le microphone, le son système ou les deux.
 
 ## La vidéo rendue n'a pas d'effets
 
 1. Vérifiez que les effets sont activés dans les paramètres.
 2. Si vous utilisez le preset **Brut/propre**, les effets sont désactivés par conception.
 
-## Erreur de bibliothèque `libwertyaudio`
+## La vidéo ne s'exporte pas
 
-- Si vous exécutez depuis le code source, assurez-vous d'avoir les dépendances audio.
-- Si vous utilisez l'exécutable compilé, vérifiez que le fichier `.pyd` est présent.
+1. Vérifiez l'espace libre sur le disque de sortie.
+2. Vérifiez que le dossier de sortie existe et autorise l'écriture.
+3. Ouvrez la [file de rendu](procesamiento/cola-renderizado.md) pour consulter l'état du travail.
+4. Si RecWERTY le demande, autorisez le téléchargement de FFmpeg.
 
-## L'exécutable compilé ne fonctionne pas
+## RecWERTY ne s'ouvre pas après l'installation
 
-1. Consultez les logs bootstrap dans le dossier `temp/` à côté du `.exe`.
-2. Assurez-vous que FFmpeg est accessible depuis le `PATH` système.
-3. Vérifiez que les assets sont générés (`generate_assets.py`).
-
-## Où trouver les logs
-
-- **Mode développement** : `Documents\RecWERTY\temp\recwerty.log`
-- **Mode exécutable** : `temp\recwerty.log` (à côté du .exe) et `Documents\RecWERTY\temp\recwerty.log`
-- **Bootstrap** : `temp\recwerty-bootstrap.log`
+1. Vérifiez que Windows 10 ou 11 est en 64 bits.
+2. Ouvrez de nouveau RecWERTY depuis le menu Démarrer.
+3. Relancez l'installateur officiel si l'installation ne s'est pas terminée.
+4. Si SmartScreen s'affiche, vérifiez que l'installateur vient du canal officiel.
 
 ## Signaler un problème
 

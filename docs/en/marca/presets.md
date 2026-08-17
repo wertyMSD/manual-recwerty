@@ -1,6 +1,9 @@
 ---
 title: Brand Presets
 description: Manage brand presets in RecWERTY — save, load, import, and export in .recbrand format.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Brand presets

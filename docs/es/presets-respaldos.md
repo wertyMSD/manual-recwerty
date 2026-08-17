@@ -1,6 +1,9 @@
 ---
 title: Presets y Respaldos
-description: Sistema de presets de marca en RecWERTY: estructura de directorios, respaldos automáticos y formato .recbrand.
+description: "Sistema de presets de marca en RecWERTY: estructura de directorios, respaldos automáticos y formato .recbrand."
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Presets y respaldos

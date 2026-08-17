@@ -1,6 +1,9 @@
 ---
 title: Traitement et Rendu
 description: Pipeline de traitement vidéo dans RecWERTY — effets, audio, intro et rendu final avec FFmpeg.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Traitement et rendu

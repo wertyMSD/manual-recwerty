@@ -1,6 +1,9 @@
 ---
 title: Capture Modes
 description: RecWERTY offers three capture modes — full screen, specific window, or custom region.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Capture modes

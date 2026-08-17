@@ -1,6 +1,9 @@
 ---
 title: Qu'est-ce que RecWERTY ?
 description: Découvrez RecWERTY, l'outil professionnel de capture d'écran avec effets visuels, amélioration audio et personnalisation de marque.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Qu'est-ce que RecWERTY ?

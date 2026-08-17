@@ -1,12 +1,14 @@
 ---
 title: General Settings
-description: General configuration in RecWERTY — license, automatic updates, and language.
+description: General RecWERTY settings for license activation, language, and user preferences.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # General settings
 
 - **License**: PRO license activation.
-- **Automatic updates**: Check on startup.
 - **Language**: Español, English, Français.
 
 !!! tip "Language"

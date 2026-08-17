@@ -1,6 +1,9 @@
 ---
 title: Personalización de Marca (Branding)
 description: Sistema de marca de RecWERTY para crear intros animadas profesionales con logo, colores corporativos y tipografía.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Personalización de marca (Branding)

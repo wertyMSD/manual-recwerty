@@ -1,6 +1,9 @@
 ---
 title: Mejora de Voz
-description: Filtros de audio profesionales en RecWERTY: normalización, reducción de ruido, compresión y ecualización de voz.
+description: "Filtros de audio profesionales en RecWERTY: normalización, reducción de ruido, compresión y ecualización de voz."
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Mejora de voz (Studio)
@@ -15,4 +18,4 @@ RecWERTY aplica filtros de audio profesionales usando FFmpeg:
 - **Ecualización de voz**: Potencia las frecuencias vocales.
 
 !!! info "Requisito"
-    La mejora de voz requiere FFmpeg instalado y accesible desde `PATH`.
+    RecWERTY usa FFmpeg para procesar audio y video. Si el componente hace falta, la app puede descargarlo automáticamente durante el flujo de uso.

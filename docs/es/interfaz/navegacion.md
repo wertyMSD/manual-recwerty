@@ -1,6 +1,9 @@
 ---
 title: Panel de Navegación y Barra de Estado
 description: Descripción del sidebar izquierdo y la barra de estado superior de RecWERTY.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Panel de navegación (sidebar izquierdo)

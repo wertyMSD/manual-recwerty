@@ -1,6 +1,9 @@
 ---
 title: Amélioration Vocale
 description: Filtres audio professionnels dans RecWERTY — normalisation, réduction du bruit, compression et égalisation vocale.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Amélioration vocale (Studio)

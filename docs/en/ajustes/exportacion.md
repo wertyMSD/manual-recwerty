@@ -1,6 +1,9 @@
 ---
 title: Export Settings
 description: Export configuration in RecWERTY — presets, quality, CRF, FFmpeg preset, and intent.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Export settings

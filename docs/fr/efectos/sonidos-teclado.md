@@ -1,6 +1,9 @@
 ---
 title: Sons de Clavier
 description: Système de sons polyphoniques de clavier dans RecWERTY avec variation par type de touche et vitesse de frappe.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Sons de clavier polyphoniques

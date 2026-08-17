@@ -1,6 +1,9 @@
 ---
 title: Getting Started
 description: Initial setup and first recording with RecWERTY.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Getting started

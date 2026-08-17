@@ -1,6 +1,9 @@
 ---
 title: Presets and Backups
 description: Brand preset system in RecWERTY — directory structure, automatic backups, and .recbrand format.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Presets and backups

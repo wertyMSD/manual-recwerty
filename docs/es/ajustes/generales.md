@@ -1,12 +1,14 @@
 ---
 title: Ajustes Generales
-description: Configuración general de RecWERTY: licencia, actualizaciones automáticas e idioma.
+description: "configuración general de RecWERTY: licencia, idioma y preferencias de usuario."
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Ajustes generales
 
 - **Licencia**: Activación de licencia PRO.
-- **Actualizaciones automáticas**: Verificar al iniciar.
 - **Idioma**: Español, English, Français.
 
 !!! tip "Idioma"

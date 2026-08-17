@@ -1,6 +1,9 @@
 ---
 title: Export GIF
 description: Exportez des segments de vos vidéos en GIFs animés optimisés avec RecWERTY.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Export GIF

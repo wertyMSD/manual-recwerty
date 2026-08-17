@@ -1,6 +1,9 @@
 ---
 title: Enregistrement
 description: Flux d'enregistrement complet dans RecWERTY — avant, pendant et après la capture d'écran.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Enregistrement

@@ -1,9 +1,12 @@
 ---
-title: Licencia y Actualizaciones
-description: Gestión de licencia PRO y actualizaciones automáticas en RecWERTY.
+title: Licencia y Versiones
+description: Gestión de licencia PRO y versiones publicadas de RecWERTY.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
-# Licencia y actualizaciones
+# Licencia y versiones
 
 ## Estado de licencia
 
@@ -12,21 +15,18 @@ description: Gestión de licencia PRO y actualizaciones automáticas en RecWERTY
 
 ## Activación
 
-1. Andá a **Ajustes** > **Licencia & actualizaciones**.
+1. Andá a **Ajustes** > **Licencia**.
 2. Ingresá tu clave de licencia.
 3. Hacé clic en **Activar**.
 
-## Actualizaciones
+## Versiones nuevas
 
-- RecWERTY verifica actualizaciones automáticamente al iniciar (configurable).
-- Las actualizaciones parciales se descargan en segundo plano.
-- La versión actual se muestra en la pantalla Acerca de.
+Las versiones para usuarios finales se distribuyen por el instalador oficial o Microsoft Store cuando esté disponible. No hace falta ejecutar comandos ni aplicar parches internos desde la aplicación.
 
 ## Archivos de licencia y configuración
 
 - **Config**: `Documentos\RecWERTY\config.ini`
 - **Licencia**: `Documentos\RecWERTY\licencia.lic`
-- **Logs**: `Documentos\RecWERTY\temp\recwerty.log`
 
 !!! warning "Modo UNLICENSED"
     En modo sin licencia, algunas funcionalidades como mejora de voz y codificación GPU no están disponibles.

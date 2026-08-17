@@ -1,6 +1,9 @@
 ---
 title: Audio Configuration
 description: Audio configuration options in RecWERTY — microphone, system sound, and keyboard sounds.
+tags:
+  - contexto/proyecto/manual
+
 ---
 
 # Audio configuration
