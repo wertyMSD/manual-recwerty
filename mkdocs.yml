@@ -99,7 +99,7 @@ plugins:
           name: English
           build: true
           site_name: RecWERTY User Manual
-          site_description: RecWERTY 3.2.3 user guide for recording the Windows screen, configuring audio and effects, and exporting videos.
+          site_description: RecWERTY 3.2.4 user guide for recording the Windows screen, configuring audio and effects, and exporting videos.
           theme:
             language: en
           nav:
@@ -156,7 +156,7 @@ plugins:
           name: Français
           build: true
           site_name: Manuel d'utilisation de RecWERTY
-          site_description: Guide de RecWERTY 3.2.3 pour enregistrer l'écran Windows, configurer l'audio et les effets, et exporter des vidéos.
+          site_description: Guide de RecWERTY 3.2.4 pour enregistrer l'écran Windows, configurer l'audio et les effets, et exporter des vidéos.
           theme:
             language: fr
           nav:
@@ -218,7 +218,7 @@ plugins:
           name: Español
           build: true
           site_name: Manual de usuario de RecWERTY
-          site_description: Manual de RecWERTY 3.2.3 para grabar la pantalla en Windows, configurar audio y efectos, y exportar videos.
+          site_description: Manual de RecWERTY 3.2.4 para grabar la pantalla en Windows, configurar audio y efectos, y exportar videos.
           nav:
             - Inicio: index.md
             - Novedades: novedades.md
